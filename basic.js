@@ -8,7 +8,7 @@ function addTask() {        //function declaration
   let checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.onclick = function () {    // function expression
-    li.classList.toggle("complete", checkbox.checked);//If true: complete class is added, If false: complete class is removed.
+    li.classList.toggle("complete", checkbox.checked);    //If true: complete class is added, If false: complete class is removed.
   };
 
   // span text
