@@ -52,10 +52,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background: #45a049;
-}
-
 
 #taskList {
   list-style: none;
@@ -78,7 +74,7 @@ button:hover {
 }
 
 
-.completed {
+.complete {
   text-decoration: line-through;
   color: #888;
 }
@@ -90,10 +86,6 @@ button:hover {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.delete-btn:hover {
-  background: #c0392b;
 }
 
 
